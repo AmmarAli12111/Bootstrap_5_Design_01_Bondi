@@ -8,18 +8,15 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 .navbar {
   background-color: var(--main-color);
 }
 .main-btn {
-  background-color: transparent;
-  border: 2px solid var(--red-color);
   color: var(--yellow-color);
   padding: 0.5rem 1rem;
-}
-.main-btn:hover {
-  background-color: var(--red-color);
-  color: white;
 }
 .main-title::after {
   content: "";
